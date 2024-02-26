@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #06680e;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  font-weight: bold;
+  height: 3px;
+  background: rgb(24, 10, 221);
+  margin-bottom: 10px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 50px; 
+  background: #b7d608;
+}
+
+.player-names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.player-names input {
+  margin: 7px;
+  padding: 5px;
+}
